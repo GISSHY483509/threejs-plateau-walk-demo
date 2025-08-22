@@ -1,4 +1,7 @@
 # threejs-plateau-walk-demo
+Live Demo（PC専用　マウス+WSAD）
+https://gisshy483509.github.io/threejs-plateau-walk-demo/
+
 Three.js でPLATEAUの横浜のモデル内を歩ける機能の作成検証
 PLATEAU モデルをPLATEAU_SDKにてgltf形式にて出力し、Three.jsにて都市の中を歩いて見れる作成検証をしています。
 
