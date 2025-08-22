@@ -1,0 +1,16 @@
+// tsconfig.json
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "module": "ESNext",              // ← import.meta を許可
+    "moduleResolution": "Bundler",   // Vite 推奨
+    "lib": ["ES2020", "DOM", "DOM.Iterable"],
+    "strict": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "skipLibCheck": true,
+    "types": ["vite/client"]         // （vite-env.d.ts があれば省略可）
+  },
+  "include": ["src"]
+}
