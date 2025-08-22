@@ -17,17 +17,19 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          lfs: true                # ← LFS の実体も取得（.glb対策）
+          lfs: true                  # LFSの実体も取得（.glb対策）
       - uses: actions/setup-node@v4
         with:
           node-version: 20
           cache: 'npm'
-      - uses: actions/configure-pages@v5   # ← ★ 追加（Pages の事前設定）
+      - uses: actions/configure-pages@v5
+        with:
+          enablement: true           # ★ Pages を未設定なら自動で有効化
       - run: npm ci
       - run: npm run build
       - uses: actions/upload-pages-artifact@v3
         with:
-          path: ./dist             # Vite の出力
+          path: ./dist
 
   deploy:
     needs: build
