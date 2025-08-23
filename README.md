@@ -8,7 +8,8 @@ PLATEAU モデルをPLATEAU_SDKにてgltf形式にて出力し、Three.jsにて�
 ## 主な特徴
 - PCのみで操作ください。（ios,Android端末での操作は想定していません）
 - アバターとして、PLATAEUのベースのモデルを歩き回れるようにしています。
-- Three.jsのサンプルモデルのhttps://github.com/mrdoob/three.js/blob/dev/examples/models/gltf/Xbot.glbをアバターとして使用しています。
+- Three.jsのサンプルモデルのhttps://github.com/mrdoob/three.js/blob/dev/examples/models/gltf/Xbot.glb
+をアバターとして使用しています。
 - 操作はWASDで移動することができます。
 - 建物は青色でwirflameで発行するようにしました。
 - 建物(bldg)、橋梁(bridge)、地形面(dem)でデータを分け、橋梁と地形面については衝突判定を設定しています。
@@ -19,4 +20,5 @@ PLATEAU モデルをPLATEAU_SDKにてgltf形式にて出力し、Three.jsにて�
 引用・参考記事
 Three.jsで新宿駅構内の3D探索ゲームを作ってみる
 https://qiita.com/satoshi7190/items/67148db8b3149e73c4b0
+
 上記記事を詳しく参考にさせていただいております。感謝申し上げます。
