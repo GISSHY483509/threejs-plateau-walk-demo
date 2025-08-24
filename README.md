@@ -1,5 +1,7 @@
 # threejs-plateau-walk-demo
 Live Demo（PC専用　マウス+WSAD）
+<img width="1459" height="656" alt="image" src="https://github.com/user-attachments/assets/c7b6e05d-c7e4-49d6-8138-6330ad4f2950" />
+
 https://gisshy483509.github.io/threejs-plateau-walk-demo/
 
 Three.js でPLATEAUの横浜のモデル内を歩ける機能の作成検証
